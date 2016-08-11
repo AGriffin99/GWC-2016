@@ -1,0 +1,25 @@
+
+
+
+
+
+
+
+
+body{background-image:url("videogamesgood.png");}
+
+.btn {background-color: #00cece;}
+.navbar * {color:black;
+background-color:  #f5f5f5;}
+
+#pros{background-color: blue;}
+#cons {background-color:pink;
+  /*background-image: url("lolipopchu.jpg");
+/*background-size: contain;*/
+}
+
+#bulletgood{font-family: 'Aref Ruqaa', serif;
+  list-style-image:url("pikachucon.png");}
+#bulletbad{font-family: 'Aref Ruqaa', serif;
+  list-style-image:url("psyduckcon.png");}
+.bullet{list-style-image:url("transchu.png");}

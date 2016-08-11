@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JS Example</title>
+    <script>
+      function changeImage() {
+        var words = document.getElementById("pic1");
+
+        if(words.src.match( "codinglanguageoffuture.gif")) {
+          words.src = "coding-super-power.jpg";
+
+
+        }else{words.src="codinglanguageoffuture.gif";}
+
+
+      }
+    </script>
+  </head>
+  <body>
+
+      <img id="pic1" src= "codinglanguageoffuture.gif" onclick="changeImage()">
+
+      <!-- <button id="btn2" onclick="myFunction()">Howdy! Click me!<img src= "coding-super-power.jpg"/></button> -->
+        <!-- <button id="btn" onclick="myFunction()">Howdy! Click me!<img src= "codinglanguageoffuture.gif"/></button> -->
+  <!-- <"pic1" onclick="changeImage"> -->
+  </body>
+</html>
+
+
+<!-- <img src= "codinglanguageoffuture.gif"/> -->
